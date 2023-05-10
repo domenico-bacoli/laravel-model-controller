@@ -15,9 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 // aprire array inserire la classe del controller 
 // inserire la , poi il nome della funzione da chiamare
-Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('/', [PageController::class, 'index'])->name('home');
 
-Route::get('/movies', [PageController::class, 'index'])->name('index');
 
     
 
